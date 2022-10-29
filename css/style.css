@@ -1,0 +1,198 @@
+body {
+   font-family: sans-serif;
+}
+
+.banner {
+   background-color: rgb(155, 156, 160);
+}
+
+.container {
+   width: 1200px;
+
+}
+
+.logo-company {
+   height: 80px;
+   width: 80px;
+}
+
+.main-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: auto;
+
+}
+
+.main-navbar ul {
+   display: flex;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+.main-navbar li {
+   margin: 0 10px;
+}
+
+
+
+.main-navbar a {
+   display: inline-block;
+   text-decoration: none;
+   color: #fff;
+   padding: 10px 20px;
+}
+
+.main-navbar a:hover{
+   border-radius: 50px;
+   background-color: black;
+}
+  
+
+   
+
+
+.hr {
+   border: 1px solid white;
+}
+
+.section {
+   text-align: center;
+   background-color: rgb(155, 156, 160);
+   color: white;
+   padding-bottom: 20px;
+}
+
+.section a {
+   display: inline-block;
+   color:white;
+   padding: 0 10px 0 10px;
+   margin: 0 10px 0 10px;
+}
+.section a:hover{
+   background-color: black;
+   
+}
+
+
+
+.big-box {
+   background-color: rgb(215, 215, 215);
+
+
+}
+
+.container2 {
+   width: 1200px;
+   margin: auto;
+   display: flex;
+   padding-bottom: 30px;
+   padding-top: 50px;
+}
+
+.box {
+   width: 300px;
+   box-sizing: border-box;
+   text-align: center;
+
+
+}
+
+.box a {
+   text-decoration: none;
+   background-color: rgb(155, 156, 160);
+   color: white;
+   border-radius: 30px;
+   padding: 8px 8px;
+
+}
+
+.contenedor {
+   width: 1200px;
+   border: 1px;
+   display: flex;
+   margin: auto;
+   text-align: justify;
+   padding-top: 50px;
+
+}
+
+.item {
+   border: 1px;
+   margin: 10px;
+   padding: 80px;
+   background-color: rgb(155, 156, 160);
+   width: 25%;
+
+}
+
+.item2 {
+   border: 1px;
+   margin: 20px;
+   padding: 5px;
+   width: 25%;
+   text-align: justify;
+}
+
+.separador {
+   border: 2px solid rgb(215, 215, 215);
+
+}
+
+.testimonials {
+   display: flex;
+   width: 1200px;
+   margin: auto;
+   margin-top: 50px;
+   flex-direction: row;
+   justify-content:space-around
+}
+
+
+.blog {
+   width:400px;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+  
+}
+
+
+.tweets {
+   width: 400px;
+   padding: 10px;
+    display: flex;
+   flex-direction: column;
+
+}
+
+
+
+.cajanegra1 {
+   border: 1px solid black;
+   height: 50px;
+   width: 50px;
+   background-color: #222;
+   display: flex;
+}
+
+.cajanegra2{border: 1px solid black;
+   height: 50px;
+   width: 100px;
+   background-color: #222;
+   display: flex;
+
+}
+.separator-footer{
+   border: 2px solid rgb(215, 215, 215);
+ margin: 50px;
+}
+.FotoyTexto{
+   display: flex;
+   width: 400px;
+}
+.links{
+   text-decoration: none;
+   color: red;
+}
